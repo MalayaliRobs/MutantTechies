@@ -1,0 +1,325 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    <script>
+  	function show (toBlock){
+    setDisplay(toBlock, 'block');
+ 							 }
+  	function hide (toNone) {
+    setDisplay(toNone, 'none');
+  							}
+  	function setDisplay (target, str) {
+    document.getElementById(target).style.display = str;
+  									  }
+</script>
+    </script>
+    <style>
+    #mydiv { display: none } 
+    #thirdsection { display: none } 
+    </style>
+  </head><body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"><img height="20" alt="Brand" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-header">
+              <h1>Compare Cars
+                <!-- <small>Subtext</small> -->
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h3>Car1</h3>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <img src="images\compare-dummy-img-car.png" class="img-responsive">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <form role="form">
+                                  <div class="form-group">
+                                    <select class="form-control" id="sel1">
+                                      <option value="" disabled="" selected="">Select Brand</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <select class="form-control" id="sel1">
+                                      <option value="" disabled="" selected="">Select Model</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <select class="form-control" id="sel1">
+                                      <option value="" disabled="" selected="">Select</option>
+                                      <option value="" disabled="" selected="">Select Variant</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" >
+            <div class="row">
+              <div class="col-md-12">
+                <h3 contenteditable="true">Car2</h3>
+                <div class="row">
+                  <div class="col-md-12">
+                    <img src="images\compare-dummy-img-car.png" class="img-responsive">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <form role="form">
+                          <div class="form-group">
+                            <select class="form-control" id="sel1">
+                              <option value="" disabled="" selected="">Select Brand</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <select class="form-control" id="sel1">
+                              <option value="" disabled="" selected="">Select Model</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <select class="form-control" id="sel1">
+                              <option value="" disabled="" selected="">Select</option>
+                              <option value="" disabled="" selected="">Select Variant</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+          <div class="row">
+              <div class="col-md-2 text-right col-md-offset-10 " id="mydiv">
+                <a href="#"><img src="images\close.png" class="img-responsive" onclick="hide('mydiv'); show('addme'); hide('thirdsection'); "></a>
+              </div>
+            </div>
+           <div id="thirdsection">
+             <div class="row">
+              <div class="col-md-12">
+                <h3 contenteditable="true">Car3</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <img src="images\compare-dummy-img-car.png" class="img-responsive">
+                <div class="row">
+                  <div class="col-md-12">
+                    <form role="form">
+                      <div class="form-group">
+                        <select class="form-control" id="sel1">
+                          <option value="" disabled="" selected="">Select Brand</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control" id="sel1">
+                          <option value="" disabled="" selected="">Select Model</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control" id="sel1">
+                          <option value="" disabled="" selected="">Select</option>
+                          <option value="" disabled="" selected="">Select Variant</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             </div> <!-- end od add -->
+            
+            <a href="#" id="addme"><img src="images\Capture.jpg" class="center-block img-responsive" onclick="show('mydiv'); hide('addme'); show('thirdsection'); "></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a class="btn btn-danger btn-lg" data-toggle="modal">Compare Cars</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="background-image" style="background-image : url('http://pingendo.github.io/pingendo-bootstrap/assets/blurry/800x600/9.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Featured Comparison</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A Title</h2>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A title</h2>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A title</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a class="btn btn-block btn-primary">Click me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="background-image" style="background-image : url('http://pingendo.github.io/pingendo-bootstrap/assets/blurry/800x600/9.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Featured Comparison</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A Title</h2>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A title</h2>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A title</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a class="btn btn-block btn-primary">Click me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="section section-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Footer header</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              <br>Ut enim ad minim veniam, quis nostrud</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-info text-right">
+              <br>
+              <br>
+            </p>
+            <div class="row">
+              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 hidden-xs text-right">
+                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="js/jquery-2.1.4.js"></script>
+
+</body></html>
