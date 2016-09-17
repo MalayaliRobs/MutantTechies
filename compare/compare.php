@@ -5,6 +5,7 @@
         <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="css\style.css" rel="stylesheet" type="text/css">
+        <title>DreamWheels</title>
         <script>
             function show (toBlock){
                 setDisplay(toBlock, 'block');
@@ -146,7 +147,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand"><img height="60" alt="Brand" src="..\logo\logo2.png"></a>
+                    <a class="navbar-brand" href="../index.html"><img height="60" alt="Brand" src="..\logo\logo2.png"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -409,8 +410,7 @@
 
               <footer class="section section-primary"> 
               <div class="container"> <div class="row"> <div class="col-sm-6">
-               <h1>Dream Wheels</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud</p></div>
+               <h1>Dream Wheels</h1> <p>Dreamt Not Bought</p></div>
                 <div class="col-sm-6"> <p class="text-info text-right"> <br><br></p><div class="row"> <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left"> 
                 <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a> <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a> </div></div><div class="row"> <div class="col-md-12 hidden-xs text-right">    <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a> </div></div></div></div></div></footer>
         <script src="js/jquery-2.1.4.js"></script>
